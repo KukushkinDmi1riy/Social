@@ -1,0 +1,19 @@
+.friends .friendsAvatar {
+  display: flex;
+
+}
+
+.friends .friendsAvatar .photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 12px;
+}
+
+.friendsAvatar div .friendNick{
+  font-size: 13px;
+  color: #fff;
+  margin: 4px auto;
+  text-align: center;
+}

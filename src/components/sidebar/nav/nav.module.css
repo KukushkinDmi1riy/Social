@@ -1,0 +1,11 @@
+
+
+.nav-content a {
+  color: white;
+  text-decoration:none;
+}
+
+.nav-content a.activeLink{
+  color: lightgreen
+}
+

@@ -20,6 +20,14 @@ let state = {
       {id:3, message: 'Hello everybody!'},
       {id:4, message: 'Yo, man!'}
     ]
+  },
+
+  sidebar: {
+    friends: [
+      {nickName: 'Mike'},
+      {nickName: 'Lile'},
+      {nickName: 'Saske'}
+    ]
   }
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.css';
 import Header from './components/header';
-import Nav from './components/nav';
+import Nav from './components/sidebar/nav';
 import Profile from './components/profile';
 import Dialogs from './components/dialogs';
 
@@ -10,15 +10,20 @@ import {Route, BrowserRouter} from 'react-router-dom';
 import News from './components/news';
 import Music from './components/music';
 import Setting from './components/setting/setting';
+import Sidebar from './components/sidebar';
 
 
-function App( {state: {profilePage:{postData}, messagePage:{dialogData, messageData}}}) {
-  debugger
+function App( {state:
+        {profilePage:
+            {postData},
+        messagePage:
+            {dialogData, messageData},
+        sidebar: {friends}}}) {
   return (
     <BrowserRouter>
       <div className="app-wrapper">
         <Header/>
-        <Nav/>
+        <Sidebar friends={friends}/>
 
         <div className="app-wrapper-content">
           {/* <Route exact path="/dialogs" component={Dialogs}/>
