@@ -1,0 +1,10 @@
+.mainImage {
+  background-image: url(https://wallpapertag.com/wallpaper/full/9/3/0/671633-desktop-nature-wallpaper-2880x1800-for-iphone-7.jpg) ;
+  background-size: cover;
+  height: 400px;
+}
+
+.avatar img {
+  width: 200px;
+  padding: 10px;
+}

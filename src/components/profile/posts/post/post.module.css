@@ -1,0 +1,11 @@
+.item  {
+  color: darkslategray;
+  padding: 5px;
+}
+
+
+.avatar img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
